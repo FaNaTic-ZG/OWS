@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Finalna stranica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- NAVIGACIJA -->
+    <header id="topheader">
+
+        <div class="grid grid-pad">
+
+            <nav>
+                <div class="col-2-12 hide-on-mobile left"> 
+                    <p><a href="o nama.html">O NAMA</a></p>
+                </div>
+
+                <div class="col-2-12 hide-on-mobile left">
+                    <p><a href="kontakt.html">KONTAKT</a></p>
+                </div>
+            
+
+                <div class="col-4-12 mobile-col-1-1">
+                    <div style="margin-top: -0.9em; text-align: center;">
+                        <a href="index.html"><img src="navigacija/logo.png" alt="logo"  width="30%"></a>
+                    </div>
+                </div>
+
+            
+                <div class="col-2-12 hide-on-mobile right">
+                    <p><a href="nagrade.html">NAGRADE</a></p>
+                </div>
+
+                <!-- NAVIGACIJA MENI-->
+                <div class="col-2-12 hide-on-mobile">
+                
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="index.html">Početna</a>
+                        <a href="vijesti.html">Novosti</a>
+                        <a href="#lokacije">Lokacije</a>
+                        <a href="sport.html">Sport</a>
+                        <a href="luxury.html">Luxury</a>
+                        <a href="suv.html">Suv</a>
+                        
+                    </div>
+
+                    <div class="right" style="margin-top: -3px;">
+                        <p><span style="cursor:pointer" onclick="openNav()">&#9776; MENU</span></p>
+                    </div>
+
+                    <script>
+                      function openNav() {
+                        document.getElementById("mySidenav").style.width = "200px";
+                        }
+                      
+                      function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                        }
+                    </script>
+                    
+                </div>
+
+            </nav>
+
+            <!-- MOBILNI MENI -->
+            <div class="col-2-12 mobile-col-1-1" id="mob">
+                
+                <div id="mySidenav1" class="sidenav1">
+                    <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+                    <div style="text-align: center;">
+                    <a class="mobilni-border" href="index.html">Početna</a>
+                    <a class="mobilni-border" href="o nama.html">O nama</a>
+                    <a class="mobilni-border" href="kontakt.html">Kontakt</a>
+                    <a class="mobilni-border" href="vijesti.html">Novosti</a>
+                    <a class="mobilni-border" href="nagrade.html">Nagrade</a>
+                    <a class="mobilni-border" href="#lokacije">Lokacije</a>
+                    <a class="mobilni-border" href="sport.html">Sport</a>
+                    <a class="mobilni-border" href="luxury.html">Luxury</a>
+                    <a href="suv.html">Suv</a>
+                    </div>
+                </div>
+
+                <p style="color: white;"><span style="font-size:5vw; cursor:pointer" onclick="openNav1()">&#9776; MENU</span></p>
+
+                <script>
+                  function openNav1() {
+                    document.getElementById("mySidenav1").style.width = "100%";
+                  }
+                  
+                  function closeNav1() {
+                    document.getElementById("mySidenav1").style.width = "0";
+                  }
+                </script>
+                
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ARTICLE -->
+    <article id="slika1">
+
+        <div class="grid grid-pad">
+
+            <div class="col-4-12 mobile-col-1-1">
+                <p>NOVA ALFA ROMEO</p>
+            </div>
+
+        </div>
+
+    </article>
+
+
+    <!-- CARS -->
+    <div id="topcars">
+
+        <div class="grid grid-pad">
+
+            <div class="col-4-12 mobile-col-1-1 centercars" style="padding-top: 10vh;">
+                <h1>SPORT</h1>
+                <img src="section2/sport.png"  alt="Sport">
+                <button class="glow-on-hover" type="button"><a href="sport.html" style="font-size: 2vh; font-family:serif;">MORE</a></button>
+            </div>
+
+            <div class="col-4-12 mobile-col-1-1 centercars" style="padding-top: 10vh;">
+                <h1>LUXURY</h1>
+                <img src="section2/luxury.png"  alt="Luxury">
+                <button class="glow-on-hover" type="button"><a href="luxury.html" style="font-size: 2vh; font-family:serif;">MORE</a></button>
+            </div>
+
+            <div class="col-4-12 mobile-col-1-1 centercars" style="padding-top: 10vh;">
+                 <h1>SUV</h1>
+                 <img src="section2/suv.png" alt="Suv">
+                 <button class="glow-on-hover moresize" type="button"><a href="suv.html" style="font-size: 2vh; font-family:serif;">MORE</a></button>
+            </div>
+
+            <div class="col-1-1 mobile-col-1-1 centercars" style="margin-top: 7.5em;">
+                <h1>FOR CUSTOM CLICK</h1>
+            </div>
+
+            <div class="col-1-1 mobile-col-1-1 center" id="more" style="padding-bottom: 10vh;">
+                <a href="#" class="button1" style="font-size: 2vh; font-family: serif;">MORE</a>
+            </div>
+                
+        </div>
+
+    </div>
+
+
+
+    <!-- LOKACIJE -->
+    <div id="toplokacije">
+
+        <div class="grid grid-pad" style="padding-bottom: 8em;">
+
+            <div class="col-1-1 mobile-col-1-1 center">
+                <a name="lokacije"><h1 style="font-size: 4vh;">LOKACIJE</h1></a>
+            </div>
+
+        
+            <div class="col-3-12 mobile-col-1-1 center resp-container" style="padding-top: 6.25em;">
+                <p style="font-size: 2vh;">LOKACIJA 1</p>
+                <iframe class="zoom" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11138.483485855651!2d16.068394576472254!3d45.73869757467622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667ee85c7fab29%3A0x9ef60b3c28e288f6!2sZra%C4%8Dna%20luka%20Franjo%20Tu%C4%91man%20Zagreb!5e0!3m2!1shr!2shr!4v1577026724945!5m2!1shr!2shr" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+
+            <div class="col-3-12 mobile-col-1-1 center resp-container" style="padding-top: 6.25em;">
+                <p style="font-size: 2vh;">LOKACIJA 2</p>
+                <iframe class="zoom" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11138.483485855651!2d16.068394576472254!3d45.73869757467622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667ee85c7fab29%3A0x9ef60b3c28e288f6!2sZra%C4%8Dna%20luka%20Franjo%20Tu%C4%91man%20Zagreb!5e0!3m2!1shr!2shr!4v1577026724945!5m2!1shr!2shr" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+
+            <div class="col-3-12 mobile-col-1-1 center resp-container" style="padding-top: 6.25em;">
+                <p style="font-size: 2vh;">LOKACIJA 3</p>
+                <iframe class="zoom" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11138.483485855651!2d16.068394576472254!3d45.73869757467622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667ee85c7fab29%3A0x9ef60b3c28e288f6!2sZra%C4%8Dna%20luka%20Franjo%20Tu%C4%91man%20Zagreb!5e0!3m2!1shr!2shr!4v1577026724945!5m2!1shr!2shr" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+
+            <div class="col-3-12 mobile-col-1-1 center resp-container" style="padding-top: 6.25em;">
+                <p style="font-size: 2vh;">LOKACIJA 4</p>
+                <iframe class="zoom" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11138.483485855651!2d16.068394576472254!3d45.73869757467622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667ee85c7fab29%3A0x9ef60b3c28e288f6!2sZra%C4%8Dna%20luka%20Franjo%20Tu%C4%91man%20Zagreb!5e0!3m2!1shr!2shr!4v1577026724945!5m2!1shr!2shr" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- HISTORY -->
+    <div id="tophistory">
+
+        <div class="grid grid-pad" style="padding-bottom: 8em;">
+
+            <div class="col-1-1 title">
+                <a href="#"><h1>HISTORY</h1></a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <div id="topfooter">
+
+        <footer class="grid grid-pad">
+
+            <div class="col-3-12 mobile-col-4-12 centercars">
+
+                <div class="footerborder" style="width: 100%; height: 9em;">
+                    <p style="font-size: 2vh;">LUXURY CARS</p>
+                    <a href="https://www.instagram.com/?hl=hr"><i class="fa fa-instagram zoom2" aria-hidden="true" style="padding-right: 0.5em;"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook-official zoom2" aria-hidden="true" style="padding-right: 0.5em;"></i></a>
+                    <a href="https://twitter.com/?lang=hr"><i class="fa fa-twitter-square zoom2" aria-hidden="true" style="padding-right: 0.5em;"></i></a>
+                    <a href="https://outlook.live.com/owa/"><i class="fa fa-envelope zoom2" aria-hidden="true" style="padding-right: 0.5em;"></i></a> 
+                </div>
+
+            </div>
+    
+            <div class="col-3-12 mobile-col-4-12 centercars">
+
+                <div class="footerborder" style="width: 100%; height: 9em;">
+                    <p style="font-size: 2vh;">LOREM IPSUM</p>
+                    <div class="footerfont">
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+
+            </div>
+    
+            <div class="col-3-12 mobile-col-4-12 centercars" style="padding-bottom: 0.5em;">
+
+                <div id="bordermob" style="width: 100%; height: 9em;">
+                    <p style="font-size: 2vh;">LOREM IPSUM</p>
+                    <div class="footerfont">
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+
+            </div>
+    
+            <div class="col-3-12 hide-on-mobile centercars">
+
+                <div style="width: 100%; height: 9em;">
+                    <p style="font-size: 2vh;">LOREM IPSUM</p>
+                    <div class="footerfont">
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- GO ON TOP BUTTON -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span>&#10514;</span></button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+    
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+    
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+</html>
